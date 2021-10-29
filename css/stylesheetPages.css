@@ -1,0 +1,66 @@
+body {
+    font-family: Chivo;
+    color: #ffffff;
+    background: linear-gradient(180deg, #1a1a1d 0%, #0C0C0C 100%);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    margin: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.wrapper {
+    display: flex;
+    flex: 50%;
+    margin: 140px 140px 150px 140px;
+}
+
+img {
+    max-height: 515px;
+    border-radius: 10px;
+}
+
+.desc h1 {
+    font-size: 64px;
+    margin: 30px;
+}
+
+p {
+    font-size: 24px;
+    margin-left: 30px;
+}
+
+.btn-wrapper {
+    margin: auto;
+    text-align: center;
+}
+
+.back-btn {
+    background-color: #ffffff;
+    color: #0C0C0C;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: inherit;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 100px;
+    transition: hover 2s;
+}
+
+.back-btn:hover {
+    animation-name: change-color;
+    animation-duration: 500ms;
+    cursor: pointer;
+}
+
+@keyframes change-color {
+    100% {
+        background-color: #f1e150;
+    }
+}
